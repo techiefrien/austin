@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base HTML</title>
+    <link rel="stylesheet" href="css/layouts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/add_students.css">
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="content-left active">
+
+            <div id="sidebar" >
+                <h3 class="logo"><i class="fa-solid fa-crown"></i><span class="span">Royal Tech Works</span></h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i><span class="span">Dashboard</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-graduation-cap"></i><span class="span">Manage Students</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-person-chalkboard"></i><span class="span">Manage Staffs</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-school-flag"></i><span class="span">Add Departments</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-landmark"></i><span class="span">Manage Rooms</span></a></li>
+                    <li><a href="#"><i class="fa-regular fa-id-card fa-flip-horizontal"></i><span class="span">Addmissions</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-book-open-reader"></i><span class="span">Allocate Exam</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-right-from-bracket"></i><span class="span">Sign Out</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="content-right">
+
+            <nav>
+                <button id="toggle-btn"><i class="fa-solid fa-bars"></i></button>
+                <h4><i class="fa-solid fa-landmark"></i><span class="span"> Manage Rooms</span></h4>
+            </nav>
+
+            <div class="container">
+                <div class="btn-op-group">
+                    <button class="btn primary-btn " id="add-std-btn"><i class="fa-solid fa-landmark"></i><span class="span"></span> Add Rooms</button>
+                    <div class="option-group">
+                        <button class="btn hover-btn"><i class="fa-solid fa-cloud-arrow-up"></i> Export</button>
+                        <button class="btn hover-btn"><i class="fa-solid fa-cloud-arrow-down"></i> Import</button>
+                        <button class="btn hover-btn"><i class="fa-solid fa-list"></i> List View</button>
+                    </div>
+                </div>
+
+                <div class="table-scroller">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Room No</td>
+                                <td>Block</td>
+                                <td>Capacity</td>
+                                <td id="edit" colspan="2">Action</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr> <tr>
+                                <td>L12</td>
+                                <td>L-Block</td>
+                                <td>50</td>
+                                <td id="edit"><a href="#"><i class="fa-solid fa-pencil"></i></a></td>
+                                <td id="delete"><a href="#"><i class="fa-solid fa-trash-can"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        
+
+        </div>
+    </div>
+
+    <div class="editWin">
+        <div class="editPopUp">
+                <h3><i class="fa-solid fa-landmark"></i><span class="span"> </span>Add Details</h3>
+                <div class="btn-cancel"><i class="fa-solid fa-xmark"></i></div>
+                    <form action="">
+                        <div class="row one-child">
+                            <div class="form-group">
+                                <input type="text"required>
+                                <label for="">Room No</label>
+                            </div> 
+                        </div>
+                        <div class="row one-child">
+                            <div class="form-group">
+                                <input type="text" required>
+                                <label for="">Block</label>
+                            </div>
+                        </div>
+                        <div class="row one-child">
+                            <div class="form-group">
+                                <input type="text" required>
+                                <label for="">Capacity</label>
+                            </div>
+                        </div>
+                       
+    
+                        <button class="submit-btn">Save Room Details</button>
+                    </form>
+                </div>
+    </div>
+
+    <div class="addWin">
+        <div class="editPopUp">
+                <h3><i class="fa-solid fa-landmark"></i> <span class="span"></span> Update Details</h3>
+                <div class="btn-cancel"><i class="fa-solid fa-xmark"></i></div>
+                <form action="">
+                    <div class="row one-child">
+                        <div class="form-group">
+                            <input type="text"required>
+                            <label for="">Room No</label>
+                        </div> 
+                    </div>
+                    <div class="row one-child">
+                        <div class="form-group">
+                            <input type="text" required>
+                            <label for="">Block</label>
+                        </div>
+                    </div>
+                    <div class="row one-child">
+                        <div class="form-group">
+                            <input type="text" required>
+                            <label for="">Capacity</label>
+                        </div>
+                    </div>
+                   
+
+                    <button class="submit-btn">Save Room Details</button>
+                </form>
+                </div>
+    </div>
+
+    <div class="alertWin">
+        <div class="alertPopUp">
+            <h5><i class="fa-regular fa-circle-question" style="margin-top:2px;line-height: 20px;font-size: 20px;"></i> Do You Want To Delete This Record ?</h5>
+            <div class="alert-btn-group">
+                <button class="alert-btn yes">Yes</button>
+                <button class="alert-btn no">No</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="js/script.js"></script>
+    <script src="js/ajax.js"></script>
+    <script>
+         $('#add-std-btn').click(function(e){
+            $('.editWin').addClass('acitve') 
+            console.log('btn-clicked')
+        });
+        $('.btn-cancel').click(function(e){
+            $('.editWin').removeClass('acitve') 
+            $('.addWin').removeClass('acitve') 
+        })
+
+        $('tbody').on('click' , '#edit' , function(e){
+            $('.addWin').addClass('acitve') 
+        })
+
+        $('tbody').on('click' , '#delete' , function(e){
+            $('.alertWin').addClass('active') 
+        })
+
+        $('.no').click(function(e){
+            $('.alertWin').removeClass('active') 
+        })
+
+        
+
+        
+    </script>
+
+</body>
+</html>
